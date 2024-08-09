@@ -2,4 +2,3 @@ discord
 asyncio
 mysql
 python-dotenv
-py-smtp
