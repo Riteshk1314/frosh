@@ -1,0 +1,12 @@
+
+version: '3.8'
+
+services:
+  frosh-bot:
+    build: .
+    container_name: frosh_bot
+    environment:
+      - TOKEN=${TOKEN}
+    volumes:
+      - .:/app
+    restart: always
